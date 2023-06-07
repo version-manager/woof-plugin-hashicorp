@@ -1,7 +1,7 @@
 # shellcheck shell=bash
 
 waypoint.table() {
-	p.run_bash 'hashicorp' 'waypoint'
+	p.run_filter 'hashicorp.sh' 'waypoint'
 }
 
 waypoint.install() {

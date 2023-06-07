@@ -1,7 +1,7 @@
 # shellcheck shell=bash
 
 levant.table() {
-	p.run_bash 'hashicorp' 'levant'
+	p.run_filter 'hashicorp.sh' 'levant'
 }
 
 levant.install() {

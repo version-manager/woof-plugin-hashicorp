@@ -1,7 +1,7 @@
 # shellcheck shell=bash
 
 terraform.table() {
-	p.run_bash 'hashicorp' 'terraform'
+	p.run_filter 'hashicorp.sh' 'terraform'
 }
 
 terraform.install() {

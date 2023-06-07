@@ -1,7 +1,7 @@
 # shellcheck shell=bash
 
 nomad.table() {
-	p.run_bash 'hashicorp' 'nomad'
+	p.run_filter 'hashicorp.sh' 'nomad'
 }
 
 nomad.install() {

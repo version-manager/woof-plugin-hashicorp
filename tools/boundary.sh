@@ -1,7 +1,7 @@
 # shellcheck shell=bash
 
 boundary.table() {
-	p.run_bash 'hashicorp' 'boundary'
+	p.run_filter 'hashicorp.sh' 'boundary'
 }
 
 boundary.install() {

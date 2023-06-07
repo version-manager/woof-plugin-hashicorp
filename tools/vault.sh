@@ -1,7 +1,7 @@
 # shellcheck shell=bash
 
 vault.table() {
-	p.run_bash 'hashicorp' 'vault'
+	p.run_filter 'hashicorp.sh' 'vault'
 }
 
 vault.install() {

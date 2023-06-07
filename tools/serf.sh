@@ -1,7 +1,7 @@
 # shellcheck shell=bash
 
 serf.table() {
-	p.run_bash 'hashicorp' 'serf'
+	p.run_filter 'hashicorp.sh' 'serf'
 }
 
 serf.install() {

@@ -1,7 +1,7 @@
 # shellcheck shell=bash
 
 vagrant.table() {
-	p.run_bash 'hashicorp' 'vagrant'
+	p.run_filter 'hashicorp.sh' 'vagrant'
 }
 
 vagrant.install() {

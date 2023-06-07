@@ -1,7 +1,7 @@
 # shellcheck shell=bash
 
 packer.table() {
-	p.run_bash 'hashicorp' 'packer'
+	p.run_filter 'hashicorp.sh' 'packer'
 }
 
 packer.install() {

@@ -1,7 +1,7 @@
 # shellcheck shell=bash
 
 consul.table() {
-	p.run_bash 'hashicorp' 'consul'
+	p.run_filter 'hashicorp.sh' 'consul'
 }
 
 consul.install() {

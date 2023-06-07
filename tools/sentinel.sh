@@ -1,7 +1,7 @@
 # shellcheck shell=bash
 
 sentinel.table() {
-	p.run_bash 'hashicorp' 'sentinel'
+	p.run_filter 'hashicorp.sh' 'sentinel'
 }
 
 sentinel.install() {

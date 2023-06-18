@@ -1,5 +1,4 @@
 # shellcheck shell=bash
-source "${0%/*}/util/util.sh"
 
 parse_hashicorp() {
 	local product="$1"
